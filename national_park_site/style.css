@@ -19,3 +19,21 @@
   width: 200px;
   background: url("yosemite.jpg")
 }
+
+#redwood-button {
+  height: 200px;
+  width: 200px;
+  background: url("redwood.jpg")
+}
+
+#sequoia-button {
+  height: 200px;
+  width: 200px;
+  background: url("sequoia.jpg")
+}
+
+#lassen-volcanic-button {
+  height: 200px;
+  width: 200px;
+  background: url("lassen-volcanic.jpg")
+}
