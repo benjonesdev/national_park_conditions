@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+/* Paletton.com source url for complimentary color schemes: 
+
+http://paletton.com/#uid=50V0X0klXlXbxw1h0qHqHh0w1bx;
+
+*/
+
 #joshua-tree-button {
 
   height: 200px;
   width: 200px;
   background: url("joshua_tree.jpg");
+  color: #d5ae64;
+  font-size: 1.3em;
+  border-color: #d5ae64;
+  border-width: 4px;
   
 }
 
@@ -11,29 +23,77 @@
   height: 200px;
   width: 200px;
   background: url("death_valley.jpg");
+  color: #d16268;
+  font-size: 1.3em;
+  border-color: #d16268;
+  border-width: 4px;
 
 }
 
 #yosemite-button {
   height: 200px;
   width: 200px;
-  background: url("yosemite.jpg")
+  background: url("yosemite.jpg");
+  color: #d5d364;
+  font-size: 1.3em;
+  border-color: #d5d364;
+  border-width: 4px;
+  
 }
 
 #redwood-button {
   height: 200px;
   width: 200px;
-  background: url("redwood.jpg")
+  background: url("redwood.jpg");
+  color: #91c95a;
+  font-size: 1.3em;
+  border-color: #91c95a;
+  border-width: 4px;
+  
 }
 
 #sequoia-button {
   height: 200px;
   width: 200px;
-  background: url("sequoia.jpg")
+  background: url("sequoia.jpg");
+  color: #6a8fa1;
+  font-size: 1.3em;
+  border-color: #6a8fa1;
+  border-width: 4px;
 }
 
 #lassen-volcanic-button {
   height: 200px;
   width: 200px;
-  background: url("lassen-volcanic.jpg")
+  background: url("lassen-volcanic.jpg");
+  color: #8a75ae;
+  font-size: 1.3em;
+  border-color: #8a75ae;
+  border-width: 4px;
+  
+}
+
+.btn {
+
+  position: relative;
+  margin: 25px 0px;
+  font-family: 'Rammetto One', arial;
+  text-shadow: 2px 2px #000;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+.button-row {
+
+  height: 700px;
+
+}
+
+.btn {
+
+  padding-top: 25px;
+
+}
+
 }
