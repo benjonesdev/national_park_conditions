@@ -84,15 +84,21 @@ http://paletton.com/#uid=50V0X0klXlXbxw1h0qHqHh0w1bx;
 
 @media only screen and (max-width: 768px) {
 
-.button-row {
+.btn {
 
-  height: 700px;
+  margin-top: 20px;
+  height: 260px;
 
 }
 
-.btn {
+#joshua-tree-button,
+#death-valley-button,
+#yosemite-button,
+#sequoia-button,
+#redwood-button,
+#lassen-volcanic-button {
 
-  padding-top: 25px;
+  width: 350px;
 
 }
 
