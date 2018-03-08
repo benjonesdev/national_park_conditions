@@ -5,13 +5,13 @@ weatherConditionsDeathValley.open('GET', 'http://api.wunderground.com/api/5f68e5
 weatherConditionsDeathValley.responseType = 'text';
 weatherConditionsDeathValley.send(null);
 
-document.getElementById('death-valley-conditions').onclick = function() {
+document.getElementById('death-valley-button').onclick = function() {
   
   if(weatherConditionsDeathValley.status === 200) {
     
     deathValleyConditionsObj = JSON.parse(weatherConditionsDeathValley.responseText);
     console.log(deathValleyConditionsObj);
     document.getElementById('death-valley-conditions').innerHTML = deathValleyConditionsObj.current_observation.temp_f + "°F" + deathValleyConditionsObj.current_observation.weather;
-  }
+  };
 
 };
