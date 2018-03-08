@@ -6,10 +6,10 @@
 </head>
 <body>
 <!-- Buttons -->
-<button type="button" id="joshua-tree-button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" id="joshua-tree-button" class="btn btn-primary" data-toggle="modal" data-target="#joshuaTreeModal">
     Joshua Tree
 </button>
-<button type="button" id="death-valley-button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button type="button" id="death-valley-button" class="btn btn-primary" data-toggle="modal" data-target="#deathValleyModal">
     Death Valley
 </button>
 <button type="button" id="yosemite-button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
@@ -27,8 +27,27 @@
 </button>
 
 <!-- Modals -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
->>>>>>> 11ac9eae2734dc162076cf0643fcb05a49b2d69b
+<div class="modal fade" id="joshuaTreeModal" tabindex="-1" role="dialog" aria-labelledby="joshuaTreeModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="joshuaTreeModalLabel">Joshua Tree Conditions</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="joshua-tree-conditions">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="deathValleyModal" tabindex="-1" role="dialog" aria-labelledby="deathValleyModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
